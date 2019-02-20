@@ -49,7 +49,7 @@ public class Deck {
   * @return true if this deck is empty, false otherwise.
   */
  public boolean isEmpty() {
-  if(cards.size() == 0)
+  if(size == 0)
     return true;
   return false;
  }

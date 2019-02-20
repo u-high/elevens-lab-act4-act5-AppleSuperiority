@@ -53,11 +53,12 @@ public class DeckTester {
   System.out.println();
 
 
- String[] ranks1 = {"Ace","King","Queen","Jack","10","9","8","7","6","5","4","3","2"};
+   String[] ranks1 = {"Ace","King","Queen","Jack","10","9","8","7","6","5","4","3","2"};
    String[] suits1 = {"Clubs","Spades","Diamonds","Hearts"};
    int[] values1 = {14,13,12,11,10,9,8,7,6,5,4,3,2}; 
    Deck run = new Deck(ranks1, suits1, values1);
    System.out.println(run);
+ 
  }
 }
 
